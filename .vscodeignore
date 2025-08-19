@@ -1,0 +1,15 @@
+.*
+.*/**
+src/
+node_modules/
+pnpm-lock.yaml
+test/
+.github/
+.vscode/
+screenshots/
+dist/**/*.map
+tsconfig.json
+*.config.cjs
+*.config.ts
+*.config.mjs
+CONTRIBUTING.md
