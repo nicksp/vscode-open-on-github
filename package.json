@@ -3,7 +3,7 @@
   "name": "reveal-on-github",
   "displayName": "Reveal on GitHub",
   "type": "module",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.15.0",
   "description": "Open the current project or file on GitHub",
