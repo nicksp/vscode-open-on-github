@@ -84,6 +84,22 @@ describe('Extension', () => {
       })
     })
 
+    it('opens GitHub URL for alternative SSH remote', async () => {
+      vi.mocked(workspace).workspaceFolders = [{ uri: { fsPath: '/test/path' } }] as any
+      vi.mocked(execSync).mockReturnValue('ssh://git@host-github/username/repo.git\n')
+      activate(mockContext)
+
+      const openProjectCommand = vi.mocked(commands.registerCommand).mock.calls[0][1]
+      await openProjectCommand()
+
+      expect(env.openExternal).toHaveBeenCalled()
+      expect(Uri.from).toHaveBeenCalledWith({
+        scheme: 'https',
+        authority: 'github.com',
+        path: 'username/repo',
+      })
+    })
+
     it('opens GitHub URL for HTTPS remote', async () => {
       vi.mocked(workspace).workspaceFolders = [{ uri: { fsPath: '/test/path' } }] as any
       vi.mocked(execSync).mockReturnValue('https://github.com/username/repo.git\n')

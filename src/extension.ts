@@ -19,11 +19,14 @@ function getRepoInfo(workspacePath: string): GitHubRepoInfo | null {
       timeout: 5000,
     }).trim()
 
-    // SSH format: git@github.com:username/repo.git
-    const sshMatch = remoteUrl.match(/git@github\.com:([^/]+)\/(.+?)(?:\.git)?$/)
+    logger.info('Remote origin URL', remoteUrl)
+
+    // SSH format: git@github.com:username/repo.git or ssh://git@hostname/username/repo.git
+    const sshMatch = remoteUrl.match(/(?:ssh:\/\/git@[^/]+\/|git@[^:]+:)([^/]+)\/(.+?)(?:\.git)?$/)
     // HTTPS format: https://github.com/username/repo.git
     const httpsMatch = remoteUrl.match(/https:\/\/github\.com\/([^/]+)\/(.+?)(?:\.git)?$/)
     const match = sshMatch ?? httpsMatch
+    logger.info('Parsed remote origin', match)
 
     return match
       ? { username: match[1], repoName: match[2] }
