@@ -9,7 +9,9 @@ test/
 screenshots/
 dist/**/*.map
 tsconfig.json
-*.config.cjs
 *.config.ts
+*.config.mts
+*.config.cts
 *.config.mjs
+*.config.cjs
 CONTRIBUTING.md
