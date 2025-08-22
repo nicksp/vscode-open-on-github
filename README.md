@@ -4,9 +4,11 @@
 
 <h1 align="center">Reveal on GitHub</h1>
 
-<a href="https://marketplace.visualstudio.com/items?itemName=nicksp.reveal-on-github" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/nicksp.reveal-on-github.svg?color=eee&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a>
+<a href="https://marketplace.visualstudio.com/items?itemName=nicksp.reveal-on-github" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/nicksp.reveal-on-github.svg?color=eee&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a> <a href="https://open-vsx.org/extension/nicksp/reveal-on-github" target="__blank"><img src="https://img.shields.io/open-vsx/v/nicksp/reveal-on-github?color=eee&amp;label=Open%20VSX%20Registry&logo=open-vsx" alt="Open VSX Version" /></a>
 
 Open current project or file on GitHub website.
+
+**Install from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=nicksp.reveal-on-github) or [Open VSX Registry](https://open-vsx.org/extension/nicksp/reveal-on-github)**.
 
 ## Commands
 
