@@ -6,7 +6,9 @@
   "private": true,
   "packageManager": "pnpm@10.15.0",
   "description": "Open the current project or file on GitHub",
-  "author": "Nick Plekhanov <nick.plekhanov@gmail.com>",
+  "author": {
+    "name": "Nick Plekhanov"
+  },
   "license": "MIT",
   "homepage": "https://github.com/nicksp/vscode-open-on-github#readme",
   "repository": {
@@ -32,7 +34,8 @@
   "main": "./dist/extension.js",
   "icon": "images/icon.png",
   "engines": {
-    "vscode": "^1.103.0"
+    "node": ">=20.0.0",
+    "vscode": "^1.94.0"
   },
   "activationEvents": [
     "onStartupFinished"
@@ -68,7 +71,7 @@
     "@antfu/eslint-config": "^5.2.1",
     "@antfu/ni": "^25.0.0",
     "@types/node": "^22.17.2",
-    "@types/vscode": "^1.103.0",
+    "@types/vscode": "^1.94.0",
     "@vscode/vsce": "^3.6.0",
     "bumpp": "^10.2.3",
     "eslint": "^9.33.0",
