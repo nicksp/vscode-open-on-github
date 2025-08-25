@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.6 (2025-08-25)
+
+- Add PR template.
+- Add changelog.
+- Update readme.
+
 ## v1.0.5 (2025-08-23)
 
 - Make it compatible with Cursor IDE.
