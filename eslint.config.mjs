@@ -45,7 +45,7 @@ export default antfu(
       }],
       'unicorn/filename-case': ['error', {
         case: 'kebabCase',
-        ignore: ['README.md', 'CONTRIBUTING.md', 'FUNDING.yml'],
+        ignore: ['README.md', 'CONTRIBUTING.md', 'CHANGELOG.md', 'FUNDING.yml', 'pull_request_template.md'],
       }],
       'test/prefer-lowercase-title': ['error', {
         ignore: ['describe'],

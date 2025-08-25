@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="./images/icon.png" height="128"/>
-</p>
-
-<h1 align="center">Reveal on GitHub</h1>
+# Reveal on GitHub
 
 <a href="https://marketplace.visualstudio.com/items?itemName=nicksp.reveal-on-github" target="__blank"><img src="https://img.shields.io/visual-studio-marketplace/v/nicksp.reveal-on-github.svg?color=eee&amp;label=VS%20Code%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version" /></a> <a href="https://open-vsx.org/extension/nicksp/reveal-on-github" target="__blank"><img src="https://img.shields.io/open-vsx/v/nicksp/reveal-on-github?color=eee&amp;label=Open%20VSX%20Registry&logo=open-vsx" alt="Open VSX Version" /></a>
 
@@ -14,7 +10,7 @@ Open current project or file on GitHub website.
 
 ![Reveal on GitHub commands](screenshots/extension.png)
 
-You can either run this commands from the Command Palette (<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on a Mac, or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Windows), or [assign hotkeys](https://code.visualstudio.com/docs/configure/keybindings).
+You can either run these commands from the Command Palette (<kbd>Cmd</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on a Mac, or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> on Windows), or [assign hotkeys](https://code.visualstudio.com/docs/configure/keybindings).
 
 | Command                    | Description                        |
 | -------------------------- | ---------------------------------- |
@@ -23,7 +19,13 @@ You can either run this commands from the Command Palette (<kbd>Cmd</kbd>+<kbd>S
 
 ## Changelog
 
-The changelog can be found on the [Releases](https://github.com/nicksp/vscode-open-on-github/releases) page.
+The changelog can be found in [CHANGELOG.md](CHANGELOG.md).
+
+## You May Also Like
+
+Check out my other Visual Studio Code extensions:
+
+- [Notelets](https://marketplace.visualstudio.com/items?itemName=nicksp.notelets) — add sticky notes to any file in your workspace
 
 ## Contributing
 
